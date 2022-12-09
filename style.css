@@ -95,19 +95,28 @@ padding: 0rem 0.5rem;
 .section{
     padding: 1rem;
 }
+
 .section h1{ 
     text-align: center;
 }
 
-
 .ow{
     background-color: var(--off-white);
-    
-    
 }
 
-
-
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+.footer .link{
+    color: white;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
 
 
 
