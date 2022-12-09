@@ -2,6 +2,7 @@
 
 :root{
     --primary-color : #1d4ed8;
+    --graycolor :#6b7280;
     }
 
 body{
@@ -72,32 +73,32 @@ padding: 0rem 0.5rem;
     font-weight: bold;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.image-size{
-    height: 200px;
-
+.hero{
+    padding: 2rem;
 }
+
+.hero .hero-image{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    padding: 1rem;
+    color: var(--graycolor);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
