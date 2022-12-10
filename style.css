@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Noto Sans', sans-serif; 
+    margin: 0px;
 }
 hr{
     margin: 2rem;
@@ -26,14 +27,18 @@ hr{
 /* links */
 
 .link{
+    
     text-decoration: none;
     padding: 0.5rem 1rem;
+    
+
 }
 
 .link-primary{
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+
 }
 .link-secondary{
     color: var(--primary-color);
@@ -85,6 +90,7 @@ padding: 0rem 0.5rem;
 }
 
 .hero .hero-heading{
+    text-align: center;
     padding: 1rem;
     color: var(--graycolor);
 }
@@ -118,7 +124,10 @@ padding: 0rem 0.5rem;
     padding-inline-start: 0px;
 }
 
-
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
 
 
 
