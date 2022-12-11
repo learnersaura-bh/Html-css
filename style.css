@@ -100,7 +100,8 @@ padding: 0rem 0.5rem;
 /* section */
 
 .section{
-    padding: 1rem;
+    padding: 1.5rem;
+    text-align: center;
 }
 
 .section h1{ 
